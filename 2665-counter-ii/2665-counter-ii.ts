@@ -5,10 +5,10 @@ type ReturnObj = {
 }
 
 function createCounter(init: number): ReturnObj {
-let currentCount = init
-const increment = () => currentCount += 1
-const reset = () => currentCount = init
-const decrement = () =>currentCount -= 1
+let initial = init
+const increment = () => ++init
+const reset = () => init = initial
+const decrement = () => --init
 
 return {increment, decrement, reset}
     
