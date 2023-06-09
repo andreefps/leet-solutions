@@ -1,4 +1,3 @@
 # leet-solutions
-Collection of my LeetCode solutions. 
-</br>
-Created using [LeetHub](https://github.com/QasimWani/LeetHub)
+This repo is a collection of my submitted solutions of LeetCode challenges
+maintained using [LeetSync](https://github.com/3ba2ii/LeetSync)
